@@ -1,15 +1,15 @@
 import './App.scss';
 import React from "react";
-import {Button} from "./Button";
+import {Counter} from "./Counter";
 
 function App() {
   return (
-    <div className="app">
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
+    <div className="container">
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
     </div>
   );
 }
