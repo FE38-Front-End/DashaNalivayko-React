@@ -1,0 +1,14 @@
+
+.app {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-exchanger {
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+}
